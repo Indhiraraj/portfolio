@@ -80,7 +80,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="flex flex-col md:flex-row items-center justify-between gap-12 z-10 relative"
+            className="flex flex-col md:flex-row items-center justify-center gap-12 z-10 relative"
           >
             <motion.div
               initial={{ opacity: 0, scale: 0.5 }}
@@ -107,7 +107,7 @@ export default function Home() {
             </motion.div>
 
             {/* Text Content */}
-            <div className="text-center md:text-left flex-1 relative">
+            <div className="text-center md:text-left  relative">
               <h1 className="text-5xl md:text-7xl font-bold mb-6">
                 Hi, I&apos;m{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
