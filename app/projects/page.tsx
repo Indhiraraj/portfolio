@@ -9,6 +9,40 @@ import { SiReact, SiFirebase, SiNodedotjs, SiExpress, SiMongodb, SiEjs, SiBootst
 
 const projects = [
   {
+    title: "Faculty Feedback System",
+    description: "A secure and scalable feedback platform actively used by 1000+ students and faculty members at SSMIET.",
+    achievements: [
+      "Designed and deployed a secure Faculty Feedback System for my college, actively used by 1000+ students and faculty with a team of 5 members.",
+      "Engineered a scalable backend architecture using Node.js, Express.js, and MySQL, optimizing API response time by 30% and fixing security vulnerabilities.",
+      "Implemented an automated feedback analysis system, reducing manual review effort by 60% and improving faculty evaluation accuracy.",
+      "Built a full-stack solution using React.js for frontend and Node.js, Express.js, MySQL for backend, deployed on the official college domain with 99.9% uptime."
+    ],
+    technologies: ["ReactJS", "NodeJS", "ExpressJS", "MySQL"],
+    links: {
+      website: "https://feedback.ssmiet.ac.in"
+      // GitHub repo is private, so not included
+    },
+    image: "/feedback.png" // Add your project screenshot
+  },
+  {
+    title: "Nakama Chat",
+    description: "A One Piece-themed chat application featuring real-time messaging, multiple chat modes, and theme support.",
+    achievements: [
+      "Built a One Piece-themed chat app with real-time messaging using Supabase and React.",
+      "Implemented one-on-one chats ('Den Den Whispers'), self-chat for personal notes, and group rooms ('Sunny Decks') with custom names.",
+      "Enabled auto-scroll to new and replied messages using React’s `useRef` and Supabase subscriptions.",
+      "Integrated Supabase email authentication, password reset, and profile management including avatars.",
+      "Created responsive UI using Tailwind CSS and shadcn/ui, with theme toggling between Dark, Light, and System modes.",
+      "Managed complex app state using multiple React Context Providers for users, messages, and UI."
+    ],
+    technologies: ["ReactJS", "Supabase", "Tailwind CSS", "shadcn/ui"],
+    links: {
+      website: "https://nakama-chat.vercel.app",
+      github: "https://github.com/Indhiraraj/NakamaChat"
+    },
+    image: "/nakama-chat.png"
+  },
+  {
     title: "JACKPOT",
     description: "An end-to-end e-commerce application with product listings, shopping cart, and secure payment processing.",
     achievements: [
@@ -18,9 +52,9 @@ const projects = [
     ],
     technologies: ["React JS", "Firebase", "NodeJS", "ExpressJS"],
     links: {
-      website: "https://jackpotmenswear.vercel.app",
+      website: "https://jackpotmenswear.vercel.app"
     },
-    image: "/jackpot.png" // Add your project screenshot
+    image: "/jackpot.png"
   },
   {
     title: "RENTIFY",
@@ -35,7 +69,7 @@ const projects = [
       website: "https://rentifyy.vercel.app",
       github: "https://github.com/Indhiraraj/Rentify"
     },
-    image: "/rentify.png" // Add your project screenshot
+    image: "/rentify.png"
   },
   {
     title: "Blogg",
@@ -50,11 +84,13 @@ const projects = [
     technologies: ["NodeJS", "MongoDB", "ExpressJS", "EJS", "Bootstrap"],
     links: {
       website: "https://my-blog-kg2l.onrender.com/",
-      github: "https://github.com/Indhiraraj/MyBlog" // Add your GitHub repository link
+      github: "https://github.com/Indhiraraj/MyBlog"
     },
-    image: "/blogg.png" // Add your project screenshot
+    image: "/blogg.png"
   }
 ];
+
+
 
 const notable = [
   // {

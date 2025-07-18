@@ -5,6 +5,22 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
+    company: "SSMIET",
+    position: "Freelance Software Developer",
+    duration: "Nov 2024 - Feb 2025",
+    location: "Dindigul, India",
+    achievements: [
+      "Designed and deployed a secure Faculty Feedback System for the college, actively used by 1000+ students and faculty.",
+      "Engineered a scalable backend using Node.js, Express.js, and MySQL, optimizing API response time by 30% and resolving critical security issues.",
+      "Implemented an automated feedback analysis module, reducing manual review efforts by 60% and improving evaluation accuracy.",
+      "Delivered a full-stack application using ReactJS and ensured 99.9% uptime after deploying on the official college domain."
+    ],
+    learnings: [
+      "Improved backend optimization and secure data handling in production-level apps.",
+      "Gained hands-on experience with full-stack deployment and stakeholder collaboration."
+    ]
+  },
+  {
     company: "HEALTH MUDRAA",
     position: "Software Developer Intern",
     duration: "Aug 2024 - Nov 2024",
@@ -31,6 +47,7 @@ const experiences = [
     ]
   }
 ];
+
 
 export default function Experience() {
   const containerVariants = {
