@@ -210,7 +210,7 @@ export default function Projects() {
                     className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
                     priority
                   />
-                  <div className="absolute inset-0 bg-blue-500/10 group-hover:bg-blue-500/20 transition-colors" />
+                  {/* <div className="absolute inset-0  group-hover:bg-blue-500/20 transition-colors" /> */}
                 </div>
               </motion.div>
 
